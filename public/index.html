@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Filters</title>
+   
+      <link rel="stylesheet" href="stylesheets/stylePicturemania.css"> 
+
+</head>
+
+<body>
+
+  <div class="head">
+    <h3> PICTUREmania</h3>
+    <h2> PICTUREmania</h2>
+    <h1> PICTUREmania</h1>
+  </div>
+    <p> Eksperyment </p> 
+  <div id="uplSection">
+    <table id="t1"> <tr> <td>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script>
+  <p class="norm"> Please, feel free to upload your image. </p>
+  <p>
+    <input type="file" multiple="false" accept="image/*" id="fileName" onchange="upload()">
+  </p>
+
+  <script 
+  src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+ </td> </tr> </table>
+  </div>
+  
+  <p><canvas id="can"> </canvas> </p>
+  <p>
+  <input id="grey" type="button" value="Make grey" onclick="makeGrey()">
+  <input id="crop" type="button" value="Crop" onclick="cropP()">
+  <input id="stripes" type="button" value="Land stripes" onclick="makeStripes()">
+    <input id="red" type="button" value="Red filter" onclick="makeRedFilter()">
+  <input id="psy" type="button" value="Psychodelic" onclick="makePsy()">
+  <input id="neg" type="button" value="Negative" onclick="makeNeg()">
+  <input id="sur" type="button" value="Surprise" onclick="makeSur()">
+  </p>
+<p id="pblur">
+  You may specify the extend of blur. Give a number from 1 to 10:
+  <input id="param" type="text" onfocus="this.value=''">
+    <input id="blur" type="button" value="Blur image" onclick="blurIm()">
+</p>
+<p>
+    <input id="orig" type="button" value="Return to original" onclick="original()">
+  </p>
+  <p>
+    <input id="clear" type="button" value="Clear image" onclick="clearCanvas()">
+  </p>
+  <div class="head">
+    <h1> PICTUREmania</h1>
+    <h2 id="end"> PICTUREmania</h2>
+    <h3> PICTUREmania</h3>
+</div>
+
+  
+
+<script src="javascripts/indexPicturemania.js" async></script>
+
+</body>
+</html>

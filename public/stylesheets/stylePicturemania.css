@@ -1,0 +1,58 @@
+.head {background-color: lightgrey;
+  margin-top: 20px;
+  padding: 15px, 15px, 15px, 15px}
+
+h1 {font-family: Arial;
+  font-size: 30pt;
+  letter-spacing: 55pt;
+  color: darkgrey;
+  text-align: center;
+  background-color: lightgrey}
+
+h2 {font-family: Arial;
+  font-size: 25pt;
+  letter-spacing: 35pt;
+  color: darkgrey;
+  text-align: center;
+  background-color: lightgrey}
+
+h3 {font-family: Arial;
+  font-size: 20pt;
+  letter-spacing: 22pt;
+  color: darkgrey;
+  text-align: center;
+  background-color: lightgrey}
+
+
+p  {font-family: Arial;
+  color: darkred;
+  text-align: center;
+  background-color: white}
+
+.norm {font-family: Arial;
+  font-size:10pt;
+  color: #0B0B22;
+  text-align: center;}
+
+#file {}
+
+#uplSection {width: 300;
+  height: 350;
+  background-color: lightgrey;
+  border: 1pt solid #0B0B22;
+  margin: 25px 2px 15px 0px;} 
+
+#t1 {margin: auto;
+  background-color: lightgrey;
+  width: 300;
+height: 150;
+align: center;
+}
+
+#can {max-width:50%;
+border: 3pt solid lightgrey;
+}
+
+#pblur{font-size:small}
+
+#end {color:#FD949A;}
