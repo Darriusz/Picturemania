@@ -1,35 +1,68 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" >
 
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Picturemania</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Picturemania" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://darriusz.github.io/Picturemania/" />
-<meta property="og:url" content="https://darriusz.github.io/Picturemania/" />
-<meta property="og:site_name" content="Picturemania" />
-<script type="application/ld+json">
-{"@type":"WebSite","headline":"Picturemania","url":"https://darriusz.github.io/Picturemania/","name":"Picturemania","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+<head>
+  <meta charset="UTF-8">
+  <title>Filters</title>
+   
+      <link rel="stylesheet" href="public/stylesheets/stylePicturemania.css"> 
 
-    <link rel="stylesheet" href="/Picturemania/public/stylesheets/stylePicturemania.css">
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
+</head>
 
-      <h1 id="picturemania">Picturemania</h1>
+<body>
 
+  <div class="head">
+    <h3> PICTUREmania</h3>
+    <h2> PICTUREmania</h2>
+    <h1> PICTUREmania</h1>
+  </div>
+    <p> Eksperyment </p> 
+  <div id="uplSection">
+    <table id="t1"> <tr> <td>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script>
+  <p class="norm"> Please, feel free to upload your image. </p>
+  <p>
+    <input type="file" multiple="false" accept="image/*" id="fileName" onchange="upload()">
+  </p>
 
-      
-    </div>
-    <script src="https://darriusz.github.io/Picturemania/public/javascripts/indexPicturemania.js" ></script>
-<!--     <script>anchors.add();</script> -->
-    
-  </body>
+  <script 
+  src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+ </td> </tr> </table>
+  </div>
+  
+  <p><canvas id="can"> </canvas> </p>
+  <p>
+  <input id="grey" type="button" value="Make grey" onclick="makeGrey()">
+  <input id="crop" type="button" value="Crop" onclick="cropP()">
+  <input id="stripes" type="button" value="Land stripes" onclick="makeStripes()">
+    <input id="red" type="button" value="Red filter" onclick="makeRedFilter()">
+  <input id="psy" type="button" value="Psychodelic" onclick="makePsy()">
+  <input id="neg" type="button" value="Negative" onclick="makeNeg()">
+  <input id="sur" type="button" value="Surprise" onclick="makeSur()">
+  </p>
+<p id="pblur">
+  You may specify the extend of blur. Give a number from 1 to 10:
+  <input id="param" type="text" onfocus="this.value=''">
+    <input id="blur" type="button" value="Blur image" onclick="blurIm()">
+</p>
+<p>
+    <input id="orig" type="button" value="Return to original" onclick="original()">
+  </p>
+  <p>
+    <input id="clear" type="button" value="Clear image" onclick="clearCanvas()">
+  </p>
+  <div class="head">
+    <h1> PICTUREmania</h1>
+    <h2 id="end"> PICTUREmania</h2>
+    <h3> PICTUREmania</h3>
+</div>
+
+  
+
+<script src="public/javascripts/indexPicturemania.js" async></script>
+
+</body>
 </html>
